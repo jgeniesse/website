@@ -22,7 +22,7 @@ export default function Home(){
         and a Certificate in Game Design. I graduated with High Honors and a 3.9 GPA. While in college, I held a Student Developer position 
         at the DoIT Help Desk and was heavily involved in the non-profit student org, Wisconsin Singers. I am currently looking for a job in 
         computer programming and would love to discuss any opportunities you may have!</p>
-        <Button variant="outline-primary"size="lg" >My Resume</Button>
+        <Button variant="outline-primary"size="lg" href='./images/Resume.pdf'>My Resume</Button>
       </div>
       </Col>
       </Row>
