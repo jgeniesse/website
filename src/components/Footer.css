@@ -1,0 +1,155 @@
+.footer {
+    padding: 10px;
+    background-color: #30217a;
+    text-align: center;
+}
+
+/*Mail Button CSS*/
+.mail {
+    margin: 5px;
+    padding-bottom: 15px;
+    border-radius: 10px;  
+    background-color: #07d173;
+    border-color: #07d173;
+}
+
+.mail:hover {
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #06a45a;
+    border-color: #06a45a;
+    transform: scale(1.2);
+    transition: .4s;
+}
+
+.mail:focus {
+    background-color: #07d173;
+    border-color: #07d173;
+    outline: none;
+    box-shadow: none;
+}
+
+.mail:focus:hover {
+    background-color: #06a45a;
+    border-color: #06a45a;
+}
+
+/*Phone Button CSS*/
+.phone {
+    margin: 5px;
+    padding-bottom: 15px;
+    border-radius: 10px;  
+    background-color: #198754;
+    border-color: #198754;
+}
+
+.phone:hover {
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #146c43;
+    border-color: #146c43;
+    transform: scale(1.2);
+    transition: .4s;
+}
+
+.phone:focus {
+    background-color: #198754;
+    border-color: #198754;
+    outline: none;
+    box-shadow: none;
+}
+
+.phone:focus:hover {
+    background-color: #146c43;
+    border-color: #146c43;
+}
+
+/*Facebook Button CSS*/
+.facebook {
+    margin: 5px;
+    padding-bottom: 15px;
+    border-radius: 10px;  
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.facebook:hover {
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #0d5fdb;
+    border-color: #0d5fdb;
+    transform: scale(1.2);
+    transition: .4s;
+}
+
+.facebook:focus {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    outline: none;
+    box-shadow: none;
+}
+
+.facebook:focus:hover {
+    background-color: #0d5fdb;
+    border-color: #0d5fdb;
+}
+
+/*LinkedIn Button CSS*/
+.linkedin {
+    margin: 5px;
+    padding-bottom: 15px;
+    border-radius: 10px;  
+    background-color: #0072b1;
+    border-color: #0072b1;
+}
+
+.linkedin:hover {
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #025b8b;
+    border-color: #025b8b;
+    transform: scale(1.2);
+    transition: .4s;
+}
+
+.linkedin:focus {
+    background-color: #0072b1;
+    border-color: #0072b1;
+    outline: none;
+    box-shadow: none;
+}
+
+.linkedin:focus:hover {
+    background-color: #025b8b;
+    border-color: #025b8b;
+}
+
+/*Git Button CSS*/
+.git {
+    margin: 5px;
+    padding-bottom: 15px;
+    border-radius: 10px;  
+    background-color: #7e2da1;
+    border-color: #7e2da1;
+}
+
+.git:hover {
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #63237e;
+    border-color: #63237e;
+    transform: scale(1.2);
+    transition: .4s;
+}
+
+.git:focus {
+    background-color: #7e2da1;
+    border-color: #7e2da1;
+    outline: none;
+    box-shadow: none;
+}
+
+.git:focus:hover {
+    background-color: #63237e;
+    border-color: #63237e;
+}

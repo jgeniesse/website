@@ -1,0 +1,35 @@
+
+
+.div1 {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.div2 {
+    text-align: left;
+    background-color: white;
+    border: 6px solid #30217a;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 50%);
+    border-radius: 60px;
+    border-bottom-left-radius: 0;
+    padding: 20px;
+    display: inline-block;
+    width: 100%;
+    min-width: 230px;
+    margin-bottom: 50px;
+}
+
+
+.HomePhoto {
+    width: 100%;
+    max-width: 525px;
+    max-height: 525px;
+    min-width: 230px;
+    min-height: 230px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 50%);
+    border: 8px inset #30217a;
+    display: inline-block;
+    margin-bottom: 50px;
+}
