@@ -11,6 +11,7 @@
     text-align: left;
     background-color: white;
     border: 6px solid #30217a;
+    color:#30217a;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 50%);
     border-radius: 60px;
     border-bottom-left-radius: 0;
@@ -21,7 +22,39 @@
     margin-bottom: 50px;
 }
 
+.div2:hover {
+    border-color: rgb(232, 197, 1);
+    color: rgb(232, 197, 1);
+    transform: scale(1.05);
+    transition: .5s;
+}
 
+.h1 {
+    color: inherit;
+    border-color: inherit;
+}
+
+.resume {
+    border-color: inherit;
+    color: inherit;
+}
+
+.resButton {
+    border-color: inherit;
+    color: inherit;
+    background-color: inherit;
+    border: solid;
+    font-size: larger;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.resButton:hover {
+    background-color: rgb(232, 197, 1);
+    border-color: rgb(232, 197, 1);
+    color:white;
+    transition: .3s;
+}
 .HomePhoto {
     width: 100%;
     max-width: 525px;
@@ -32,4 +65,10 @@
     border: 8px inset #30217a;
     display: inline-block;
     margin-bottom: 50px;
+}
+
+.HomePhoto:hover {
+    transform: scale(1.05);
+    transition: .5s;
+    border-color: rgb(232, 197, 1);;
 }

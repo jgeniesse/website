@@ -14,6 +14,7 @@ export default function App() {
   const [highlight, setHighlight] = useState("home");
 
   return (
+    <div className="page">
     <Router>
     <Header highlight={highlight} />
       <div className="body">
@@ -24,7 +25,8 @@ export default function App() {
          <Route path="*" element={<ErrorPage setHighlight={setHighlight}/>} />
         </Routes>
       </div>
-    <Footer />
+    <Footer className="footer" />
     </Router>
+    </div>
   );
 }
