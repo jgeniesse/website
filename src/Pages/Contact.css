@@ -1,0 +1,23 @@
+.map {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+@media (min-width: 568px) {
+    .map {
+        height: 568px;
+    }
+}
+
+.contactMe {
+    text-align: center;
+    padding: 30px;
+    padding-bottom: 10px;
+    color: #30217a;
+}
+
+.div4 {
+    padding: 30px;
+    align-items: center;
+}
