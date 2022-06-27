@@ -3,6 +3,37 @@
   padding: 0;
 }
 
+.page {
+  position: relative;
+  min-height: 100vh;
+}
+
 .body {
   background-color: aliceblue;
+  padding-bottom: 80px;
+}
+
+@media (max-width: 356px) {
+  .body {
+    padding-bottom: 145px;
+  }
+}
+
+@media (max-width: 228px) {
+  .body {
+    padding-bottom: 210px;
+  }
+}
+
+@media (max-width: 166px) {
+  .body {
+    padding-bottom: 340px;
+  }
+}
+
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
