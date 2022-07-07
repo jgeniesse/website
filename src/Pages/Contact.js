@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from "react";
-import { Row, Col, Container, Form, Button } from "react-bootstrap";
+import React, { useEffect } from "react";
+import { Row, Col, Form, Button } from "react-bootstrap";
 import "./Contact.css";
 
 export default function Contact(props) {
