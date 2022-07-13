@@ -33,7 +33,7 @@ export default function Header(props) {
 
   return (  
     <Navbar variant="dark" className="Bar" expand="sm">
-      <Navbar.Brand href="/">
+      <Navbar.Brand className="brand" href="/">
         <img src='./images/logo.png' className='img'></img>
         Jon Geniesse
       </Navbar.Brand>

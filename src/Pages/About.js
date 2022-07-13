@@ -8,21 +8,21 @@ export default function About(props) {
   }, []);
 
   return (
-    <Container style={{ paddingTop: "70px" }}>
+    <Container style={{ paddingTop: "70px", paddingBottom: "40px" }}>
       <Row>
         <Col xl={7} style={{padding: "0", marginRight: "20px", marginBottom: "30px", boxShadow: "4px 4px 10px rgba(0,0,0,50)"}}>
           <Carousel>
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="./images/Carousel/img1.jpg"
+                src="./images/Carousel/img6.jpg"
                 alt="First slide"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="./images/Carousel/img2.jpg"
+                src="./images/Carousel/img7.jpg"
                 alt="Second slide"
               />
             </Carousel.Item>
@@ -36,7 +36,7 @@ export default function About(props) {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="./images/Carousel/img4.jpg"
+                src="./images/Carousel/img9.jpg"
                 alt="Third slide"
               />
             </Carousel.Item>
@@ -50,28 +50,21 @@ export default function About(props) {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="./images/Carousel/img6.jpg"
+                src="./images/Carousel/img1.jpg"
                 alt="Third slide"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="./images/Carousel/img7.jpg"
+                src="./images/Carousel/img2.jpg"
                 alt="Third slide"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="./images/Carousel/img8.jpg"
-                alt="Third slide"
-              />
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block w-100"
-                src="./images/Carousel/img9.jpg"
+                src="./images/Carousel/img4.jpg"
                 alt="Third slide"
               />
             </Carousel.Item>

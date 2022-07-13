@@ -15,4 +15,9 @@
     justify-content: end;
 }
 
+.brand:hover {
+    transform: scale(1.1);
+    padding-left: 18px;
+    transition: .5s;
+}
 
